@@ -1,0 +1,37 @@
+/**************************TAG SELECTORS************************/
+img:hover
+{
+    background-color: gold;
+
+
+}
+h1
+{
+    font-size: 100px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*************************CLASS SELECTORS***********************/
+.bacon
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+
+}
+/***************************ID SELECTORS*************************/
+#brocolli
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+
+}
+/*ID and class selectors are more specific hence they will be applied over tag selectors.
+NOTE:- main difference in the two is that only one tag can have a ID that is every ID is unique no two
+       can have same ID but many tags can have same class
+       you can also have many classes for same tag but cannot have many ids for same tag.*/
